@@ -1,0 +1,118 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/*components*/
+@import url("./components/btn-white.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.container {
+  text-align: center;
+  margin: 4px;
+  padding: 4px;
+}
+
+/*Banner*/
+
+.banner {
+  background-image: url(../../images/banner.jpg);
+  background-size: 100%;
+  background-position: center;
+  height: 400px;
+  color: white;
+}
+
+.banner h1 {
+  font-weight: bold;
+  font-size: 120px;
+  padding: 12px;
+  margin: 0px;
+  text-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.banner p {
+  font-size: 40px;
+  margin: 8px;
+  padding-bottom: 24px;
+}
+
+/*Product Cards*/
+
+.card-middle {
+  height: 300px;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-grow {
+  flex-grow: 1;
+  padding: 16px;
+  box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+.card {
+  width: 25%;
+  padding: 16px;
+  box-shadow:0 10px 30px rgba(0,0,0,.1);
+  margin: 16px;
+}
+
+.fas {
+  font-size: 40px;
+}
+
+/*Footer*/
+
+.footer {
+  background-image: url(../../images/footer.jpg);
+  background-size: 100%;
+  background-position: center;
+  box-shadow:0 10px 30px rgba(0,0,0,.1);
+  height: 200px;
+  color: white;
+}
+.footer h2 {
+  opacity: .9;
+  text-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding-top: 24px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 32px;
+  text-decoration: none;
+  font-size: 75px;
+}
+
+
+.fab {
+  color: white;
+}
+
+
+
