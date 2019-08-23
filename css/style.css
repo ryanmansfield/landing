@@ -31,7 +31,7 @@ a {
 /*Banner*/
 
 .banner {
-  background-image: url(../../images/banner.jpg);
+  background-image: url(../images/banner.jpg);
   background-size: 100%;
   background-position: center;
   height: 400px;
@@ -85,7 +85,7 @@ a {
 /*Footer*/
 
 .footer {
-  background-image: url(../../images/footer.jpg);
+  background-image: url(../images/footer.jpg);
   background-size: 100%;
   background-position: center;
   box-shadow:0 10px 30px rgba(0,0,0,.1);
